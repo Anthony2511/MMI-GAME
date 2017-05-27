@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+
+        <title>Tetris Game</title>
+
+        <style>
+            body {
+                background: url( 'resources/bcg.png' );
+            }
+            h1 {
+                font-family: 'Raleway';
+                letter-spacing: 4px;
+                color: white;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 50px;
+            }
+            canvas {
+                display: block;
+                margin: 50px auto;
+                border: 1px solid rgba( 255, 255, 255, 0.4 );
+                box-shadow: 0 0 20px 0 rgba( 255, 255, 255, 0.4 );
+            }
+            ::selection {
+                background: transparent;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tetris Game</h1>
+
+        <canvas id="game" width="518" height="511"></canvas>
+
+        <script src="bin/tetris.min.js"></script>
+        <script src="bin/game.min.js"></script>
+    </body>
+</html>
