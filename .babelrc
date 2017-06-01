@@ -1,6 +1,6 @@
 {
-     "presets": [ "es2015", "es2016" ],
-     "plugins": [ "iife-wrap" ],
-     "compact": true,
-     "comments": false
- }
+    "presets": [ "es2015", "es2016" ],
+    "plugins": [ "iife-wrap" ],
+    "compact": true,
+    "comments": false
+}
